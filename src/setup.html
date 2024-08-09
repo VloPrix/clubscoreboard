@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Club Scoreboard</title>
+    <meta name="twitter:title" content="Club Scoreboard">
+    <meta property="og:image" content="assets/img/logo.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="assets/img/logo.png">
+    <link rel="icon" type="image/png" sizes="2368x2368" href="assets/img/logo.png">
+    <link rel="icon" type="image/png" sizes="2368x2368" href="assets/img/logo.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="2368x2368" href="assets/img/logo.png">
+    <link rel="icon" type="image/png" sizes="2368x2368" href="assets/img/logo.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="2368x2368" href="assets/img/logo.png">
+    <link rel="icon" type="image/png" sizes="2368x2368" href="assets/img/logo.png">
+    <link rel="icon" type="image/png" sizes="2368x2368" href="assets/img/logo.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Centered-Links-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <h1 class="text-center">Club Scoreboard initial setup</h1>
+    <p class="text-center" style="color: var(--bs-red);">Configure the Database settings in the file config/config.php before continuing!</p>
+    <div class="d-xl-flex justify-content-xl-center">
+        <form method="post" action="assets/php/public/setup.php">
+            <div><label class="form-label" for="password">New password for user "scoreboard_admin"</label><input class="form-control" type="password" id="password" required="" minlength="14" name="password" placeholder="Password"></div><button class="btn btn-primary" type="submit">Create user &amp; setup database</button>
+        </form>
+    </div>
+    <p class="text-center" style="color: var(--bs-red);">Please note that this setup will delete all previous records in the database.</p>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/classes/events.js"></script>
+    <script src="assets/js/classes/login.js"></script>
+    <script src="assets/js/classes/member.js"></script>
+    <script src="assets/js/classes/message.js"></script>
+    <script src="assets/js/global.js"></script>
+</body>
+
+</html>
