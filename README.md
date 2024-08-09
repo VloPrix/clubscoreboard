@@ -1,6 +1,7 @@
 # Club Scoreboard
 A simple Scoreboard for your Club. It can be used for any sport or Tournament. It features an overall placement for all events and an individual event placement.
-![Screenshot of the Club Scoreboard index page]()
+![Screenshot of the Club Scoreboard index page](https://github.com/user-attachments/assets/4e5a15a3-0350-46a4-9624-43e7bbe0d329)
+
 
 ## Installation
 The installation is pretty simple.
