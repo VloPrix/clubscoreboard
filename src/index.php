@@ -34,7 +34,7 @@ require_once("assets/php/config/config.php");
                 <div class="collapse navbar-collapse" id="navcol-2">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link active" href="<?php echo config::homepageLink; ?>" target="_blank">Homepage</a></li>
-                        <li class="nav-item"><a class="nav-link" href="point-calculation.html">Point calculation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="point-calculation.php">Point calculation</a></li>
                         <li class="nav-item" id="adminPanelLink" style="display: none;"><a class="nav-link" href="admin-panel.php">Admin-Panel</a></li>
                     </ul><button class="btn btn-primary" id="loginButton" type="button">Login</button>
                 </div><button class="btn btn-primary" id="logoutButton" type="button" style="display: none;">Logout</button>
