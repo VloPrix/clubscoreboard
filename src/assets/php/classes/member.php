@@ -15,7 +15,7 @@ class member {
         $this->db = $db;
     }
     public function getMembers() {
-        $persons = $this->db->query('SELECT * FROM scoreboard_persons')->fetchAll();
+        $persons = $this->db->query('SELECT * FROM scoreboard_persons ORDER BY name ASC')->fetchAll();
         return $persons;
     }
     public function newMember($name) {
