@@ -1,8 +1,9 @@
 <?php
-require_once("php/classes/session.php");
-require_once("php/config/config.php");
+require_once("assets/php/classes/session.php");
+require_once("assets/php/config/config.php");
+session::startSession();
 if (!session::getSessionVar("loggedIn")) {
-    header('Location: index.html');
+    header('Location: index.php');
     die();
 }
 ?>
