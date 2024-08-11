@@ -44,6 +44,7 @@ if (!session::getSessionVar("loggedIn")) {
             </div>
         </nav>
     </header>
+    <main>
     <div>
         <h1 class="text-center" style="margin-bottom: 44px;">Options</h1>
         <div class="d-flex justify-content-center" style="margin-bottom: 20px;"><button class="btn btn-outline-primary" id="newEventButton" type="button">Create new event</button></div>
@@ -143,6 +144,7 @@ if (!session::getSessionVar("loggedIn")) {
     <div id="loaderDiv" style="width: 100px;position: fixed;top: calc(50% - 62px);right: calc(50% - 50px);display: none;"><img id="loader" src="assets/img/logo.png" style="width: 100px;animation: rotating 1.5s linear infinite;">
         <p class="text-center" style="width: 100px;">Lade...</p>
     </div>
+            </main>
     <footer>
         <footer class="text-center py-4">
             <div class="container">

@@ -41,7 +41,7 @@ require_once("assets/php/config/config.php");
             </div>
         </nav>
     </header>
-    <div>
+    <main>
         <h1 class="text-center">Point calculation</h1>
         <div class="d-flex d-lg-flex justify-content-center justify-content-lg-center">
             <div style="width: 240px;">
@@ -130,7 +130,7 @@ require_once("assets/php/config/config.php");
                 </div>
             </div>
         </div>
-    </div>
+</main>
     <footer>
         <footer class="text-center py-4">
             <div class="container">

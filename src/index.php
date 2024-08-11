@@ -41,6 +41,7 @@ require_once("assets/php/config/config.php");
             </div>
         </nav>
     </header>
+    <main>
     <div>
         <div>
             <h1 class="text-center">Overall placement</h1>
@@ -97,6 +98,7 @@ require_once("assets/php/config/config.php");
         </form>
     </div>
     <div class="alert alert-dismissible" role="alert" id="alertBox" style="position: fixed;top: 20px;right: 20px;z-index: 99999;width: 320px;display: none;background: var(--bs-body-bg);"><button class="btn-close" id="messageClose" type="button" aria-label="Close"></button><span id="alertBoxContent"><strong>Alert</strong> text.</span></div>
+            </main>
     <footer>
         <footer class="text-center py-4">
             <div class="container">
